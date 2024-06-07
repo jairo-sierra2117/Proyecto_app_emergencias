@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/ttittle_home"
         android:layout_width="205dp"
         android:layout_height="45dp"
         android:text="@string/conectando_con_la_ayuda_app_directorio_de_emergencias"
