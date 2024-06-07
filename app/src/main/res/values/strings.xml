@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AppEmergencias</string>
+    <string name="IMGBTN">NAVBAR</string>
     <string name="conectando_con_la_ayuda_app_directorio_de_emergencias">Conectando con la ayuda:App directorio de Emergencias</string>
 </resources>
