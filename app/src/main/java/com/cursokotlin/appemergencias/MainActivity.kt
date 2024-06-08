@@ -1,18 +1,25 @@
 package com.cursokotlin.appemergencias
 
-import androidx.appcompat.app.AppCompatActivity
+import android.Manifest
+import android.content.DialogInterface
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
+import android.view.MenuItem
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
-    // Declara las instancias de los fragments
     private val inicioFragment = InicioFragment()
     private val ufpsFragment = UfpsFragment()
     private val settingFragment = SettingFragment()
 
-    // Define el listener para la navegación del BottomNavigationView
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.inicioFragment -> {
@@ -27,21 +34,87 @@ class MainActivity : AppCompatActivity() {
                 supportFragmentManager.beginTransaction().replace(R.id.frame_container, settingFragment).commit()
                 return@OnNavigationItemSelectedListener true
             }
+            R.id.callFragment -> {
+                if (checkCallPhonePermission()) {  // Check permission before making the call
+                    showConfirmationDialog()
+                } else {
+                    requestCallPhonePermission()
+                }
+                return@OnNavigationItemSelectedListener true
+            }
         }
         false
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // Configura el tema para que siempre use el modo de día
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-
         setContentView(R.layout.activity_main)
 
         val navigation = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
-
-        // Seleccionar el ítem correspondiente al fragmento de inicio al iniciar la actividad
         navigation.selectedItemId = R.id.inicioFragment
     }
+
+    private fun checkCallPhonePermission(): Boolean {
+        return ContextCompat.checkSelfPermission(
+            this,
+            Manifest.permission.CALL_PHONE
+        ) == PackageManager.PERMISSION_GRANTED
+    }
+
+    private fun requestCallPhonePermission() {
+        ActivityCompat.requestPermissions(
+            this,
+            arrayOf(Manifest.permission.CALL_PHONE),
+            REQUEST_CALL_PHONE
+        )
+    }
+
+    private fun showConfirmationDialog() {
+        val builder = AlertDialog.Builder(this)
+        builder.setMessage("¿PEDIR AYUDA al 123 ?")
+            .setPositiveButton(
+                "Sí"
+            ) { dialog: DialogInterface?, which: Int ->
+                makeEmergencyCall()
+            }
+            .setNegativeButton("No", null)
+            .show()
+    }
+
+    private fun makeEmergencyCall() {
+        val intent = Intent(Intent.ACTION_CALL)
+        intent.data = Uri.parse("tel:3212010472") // Replace with your emergency number (e.g., "tel:911")
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.CALL_PHONE
+            ) == PackageManager.PERMISSION_GRANTED
+        ) {
+            startActivity(intent)
+        } else {
+            requestCallPhonePermission()
+        }
+    }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<String>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == REQUEST_CALL_PHONE) {
+            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                makeEmergencyCall()
+            } else {
+                // Handle permission denied case (optional: inform user)
+            }
+        }
+    }
+
+    companion object {
+        private const val REQUEST_CALL_PHONE = 1 // Request code for call permission
+    }
 }
+
