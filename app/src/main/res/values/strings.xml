@@ -1,5 +1,26 @@
 <resources>
     <string name="app_name">AppEmergencias</string>
-    <string name="IMGBTN">NAVBAR</string>
+    <string name="btn_home">NAVBAR</string>
+    <string name="btn_call">NAVBAR</string>
+    <string name="btn_Univ">NAVBAR</string>
+    <string name="btn_setting">NAVBAR</string>
     <string name="conectando_con_la_ayuda_app_directorio_de_emergencias">Conectando con la ayuda:App directorio de Emergencias</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
