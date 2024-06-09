@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun makeEmergencyCall() {
         val intent = Intent(Intent.ACTION_CALL)
-        intent.data = Uri.parse("tel:3212010472") // Replace with your emergency number (e.g., "tel:911")
+        intent.data = Uri.parse("tel:3052391868") // Replace with your emergency number (e.g., "tel:911")
         if (ActivityCompat.checkSelfPermission(
                 this,
                 Manifest.permission.CALL_PHONE
