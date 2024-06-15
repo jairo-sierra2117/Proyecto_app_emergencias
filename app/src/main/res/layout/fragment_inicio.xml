@@ -54,7 +54,7 @@
                     android:id="@+id/btn_policia"
                     android:layout_width="148dp"
                     android:layout_height="wrap_content"
-                    android:text="POLICIA" />
+                    android:text="@string/btn_policia" />
             </TableRow>
 
             <TableRow
@@ -65,7 +65,7 @@
                     android:id="@+id/btn_bomberos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BOMBEROS" />
+                    android:text="@string/btn_bomberos" />
             </TableRow>
 
             <TableRow
@@ -76,7 +76,7 @@
                     android:id="@+id/btn_CruzRoja"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CRUZ ROJA" />
+                    android:text="@string/btn_cruzroja" />
             </TableRow>
 
             <TableRow
@@ -87,7 +87,7 @@
                     android:id="@+id/btn_Ambulancia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="AMBULANCIA" />
+                    android:text="@string/btn_ambulancia" />
             </TableRow>
         </TableLayout>
     </ScrollView>
