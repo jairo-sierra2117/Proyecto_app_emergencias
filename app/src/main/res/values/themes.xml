@@ -20,4 +20,10 @@
         <item name="itemTextColor">@color/black</item>
     </style>
 
+        <!-- Definir un estilo -->
+    <style name="ButtonPressedStyle">
+        <item name="android:background">@color/black</item> <!-- Aplicar el color definido -->
+    </style>
+
+
 </resources>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/inicioFragment"
-        android:icon="@drawable/iconamoon_home_fill"
-        android:title="Inicio"/>
+
 
     <item
         android:id="@+id/callFragment"
         android:icon="@drawable/ion_call"
         android:title="Llamar"/>
+    <item
+        android:id="@+id/inicioFragment"
+        android:icon="@drawable/directorio_telefonico"
+        android:title="Directorio"/>
     <item
         android:id="@+id/ufpsFragment"
         android:icon="@drawable/lucide_university"
@@ -18,4 +19,5 @@
         android:id="@+id/settingFragment"
         android:icon="@drawable/icon_setting"
         android:title="Ajustes"/>
+
 </menu>

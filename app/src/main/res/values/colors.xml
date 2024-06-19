@@ -7,9 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="light_orange">#FFA575</color>
+    <color name="light_red">#D8573D</color>
 
 
     <color name="colorButtonPressed">#80000000</color> <!-- Un color semitransparente (50% de opacidad) -->
+    <color name="button_pressed_effect">#80000000</color> <!-- Un color semitransparente (50% de opacidad) -->
 
 </resources>

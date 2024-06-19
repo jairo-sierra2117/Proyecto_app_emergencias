@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- imagebutton_background_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado predeterminado -->
+    <item>
+        <layer-list>
+            <item android:drawable="@android:color/transparent" />
+        </layer-list>
+    </item>
+    <!-- Estado cuando el ImageButton está presionado -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/salud" />
+            <item>
+                <color android:color="#80000000" /> <!-- Color semi-transparente -->
+            </item>
+        </layer-list>
+    </item>
+</selector>
