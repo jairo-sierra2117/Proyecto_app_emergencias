@@ -10,6 +10,7 @@
     <string name="btn_policia">POLICIA</string>
     <string name="btn_cruzroja">CRUZ ROJA</string>
     <string name="btn_bomberos">BOMBEROS</string>
+    <string name="btn_transito">TRANSITO</string>
     <string name="txt_TitleDirectory">SELECCIONE UNA ACCIÓN</string>
 
     <!-- Preference Titles -->
