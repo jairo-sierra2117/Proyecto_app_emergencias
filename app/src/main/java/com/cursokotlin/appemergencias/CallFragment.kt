@@ -32,8 +32,8 @@ class CallFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_call, container, false)
 
         emergencyButton = view.findViewById(R.id.emergency_button)
-        normalDrawable = ContextCompat.getDrawable(requireContext(), R.drawable.salud_red)!!
-        pressedDrawable = ContextCompat.getDrawable(requireContext(), R.drawable.salud_green)!!
+        normalDrawable = ContextCompat.getDrawable(requireContext(), R.drawable.btn_red)!!
+        pressedDrawable = ContextCompat.getDrawable(requireContext(), R.drawable.btn_green)!!
 
         handler = Handler(Looper.getMainLooper())
 

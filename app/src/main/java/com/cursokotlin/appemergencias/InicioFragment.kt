@@ -34,7 +34,7 @@ class InicioFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_inicio, container, false)
-
+        // MIRAR AQUI
         //agregar mas dependiendo de la cantidad de cards creadas, estas deben tener un id, y el segundo textview tambien debe tener id
         setupCardLongPress(view.findViewById(R.id.card_policia), view.findViewById(R.id.txt_numero_policia))
         setupCardLongPress(view.findViewById(R.id.card_bombero), view.findViewById(R.id.txt_numero_bombero))
