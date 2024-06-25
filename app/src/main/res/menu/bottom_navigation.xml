@@ -13,8 +13,8 @@
         android:title="Directorio"/>
     <item
         android:id="@+id/ufpsFragment"
-        android:icon="@drawable/lucide_university"
-        android:title="UFPS"/>
+        android:icon="@drawable/informacion"
+        android:title="Información"/>
     <item
         android:id="@+id/settingFragment"
         android:icon="@drawable/icon_setting"

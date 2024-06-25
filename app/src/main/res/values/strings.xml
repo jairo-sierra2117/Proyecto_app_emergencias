@@ -37,4 +37,42 @@
     <string name="emergency_button_desc">Botón de emergencia</string>
 
 
+        <string name="info_relevant_title">Información Relevante</string>
+        <string name="info_intro">Es importante saber cómo actuar en situaciones de emergencia, por esto, es buena idea conocer qué podemos hacer nosotros como involucrados en esas situaciones. Aquí te explicaremos algunos conceptos que te ayudarán.</string>
+        <string name="what_is_emergency">¿Qué es una emergencia?</string>
+        <string name="emergency_definition">Una emergencia es una situación inesperada que no se tiene contemplada y que requiere una respuesta inmediata para resolverla. Algunos ejemplos son:</string>
+        <string name="accidents_hospitalizations">- Accidentes/hospitalizaciones.</string>
+        <string name="deaths">- Fallecimientos.</string>
+        <string name="arrests">- Detenciones/arrestos.</string>
+        <string name="thefts">- Hurtos.</string>
+        <string name="prevent_emergency_title">¿Cómo prevenir una emergencia?</string>
+        <string name="prevent_emergency_intro">Aunque no sabemos cuándo nos va a suceder una emergencia, podemos estar preparados para prevenir y minimizar las consecuencias que esta pueda causarnos. Aquí hay algunas situaciones y cómo podemos prevenirlas:</string>
+        <string name="home_prevention">En nuestras casas podemos revisar los cables y dispositivos eléctricos, apagar estufas, cerrar el gas durante la noche, ayuda a prevenir incendios.</string>
+        <string name="first_aid_kit">También tener un botiquín de primeros auxilios, con cosas como: Gasas y vendas limpias, Antisépticos o alcohol para prevenir infecciones, medicamentos para el dolor, entre otros.</string>
+        <string name="work_prevention">En nuestro trabajo o centro de estudio, nos puede ayudar conocer las rutas de evacuación, puntos de encuentro y personas capacitadas para una emergencia.</string>
+        <string name="contact_numbers_intro">Una de las últimas recomendaciones es tener a la mano los números de contacto de las entidades que nos pueden ayudar en cada situación. Este es el principal objetivo de nuestra aplicación, proporcionar los números de diferentes servicios de emergencia, para ayudarte en esas situaciones, y disminuir los daños.</string>
+        <string name="project_info">El proyecto “Conectando con la Ayuda: App de Emergencias” es una iniciativa tecnológica desarrollada por estudiantes de la Universidad Fransisco de Paula Santander del programa de Ing. en Sistemas, diseñada para brindar una herramienta de emergencia a nuestra comunidad.</string>
+        <string name="emergency_image_desc">Imagen de emergencia</string>
+        <string name="home_safety_image_desc">Imagen de seguridad en el hogar</string>
+        <string name="first_aid_image_desc">Imagen de botiquín de primeros auxilios</string>
+        <string name="work_safety_image1_desc">Imagen de seguridad en el trabajo 1</string>
+        <string name="work_safety_image2_desc">Imagen de seguridad en el trabajo 2</string>
+        <string name="contact_numbers_image_desc">Imagen de números de contacto</string>
+    <string name="qu_es_una_emergencia">¿Qué es una emergencia?</string>
+    <string name="una_emergencia_es_una_situaci_n_inesperada_que_no_se_tiene_contemplada_y_que_requiere_una_respuesta_inmediata_para_resolverla_algunos_ejemplos_son">Una emergencia es una situación inesperada que no se tiene contemplada y que requiere una respuesta inmediata para resolverla. Algunos ejemplos son:</string>
+    <string name="accidentes_hospitalizaciones">-Accidentes/hospitalizaciones.</string>
+    <string name="fallecimientos">-Fallecimientos.</string>
+    <string name="detenciones_arrestos">-Detenciones/arrestos.</string>
+    <string name="hurtos">-Hurtos.</string>
+    <string name="c_mo_prevenir_una_emergencia">¿Cómo prevenir una emergencia?</string>
+    <string name="aunque_no_sabemos_cu_ndo_nos_va_a_suceder_una_emergencia_podemos_estar_preparados_para_prevenir_y_minimizar_las_consecuencias_que_esta_pueda_causarnos_aqu_hay_algunas_situaciones_y_c_mo_podemos_prevenirlas">Aunque no sabemos cuándo nos va a suceder una emergencia, podemos estar preparados para prevenir y minimizar las consecuencias que esta pueda causarnos.Aquí hay algunas situaciones y como podemos prevenirlas:</string>
+    <string name="en_nuestras_casas_podemos_revisar_los_cables_y_dispositivos_el_ctricos_apagar_estufas_cerrar_el_gas_durante_la_noche_ayuda_a_prevenir_incendios">En nuestras casas  podemos revisar los cables y dispositivos electricos, apagar estufas, cerrar el gas durante la noche, ayuda a prevenir incendios.</string>
+    <string name="tambi_n_tener_un_botiqu_n_de_primeros_auxilios_con_cosas_como_gasas_y_vendas_limpias_antis_pticos_o_alcohol_para_prevenir_infecciones_medicamentos_para_el_dolor_entre_otros">También tener un botiquin de primeros auxilios, con cosas como: Gasas y vendas limpias, Antisépticos o alcohol para prevenir infecciones, medicamentos para el dolor, entre otros.</string>
+    <string name="en_nuestro_trabajo_o_centro_de_estudio_nos_puede_ayudar_conocer_las_rutas_de_evacuaci_n_puntos_de_encuentro_y_personas_capacitadas_para_una_emergencia">En nuestro trabajo o centro de estudio, nos puede ayudar conocer las rutas de evacuación, puntos de encuentro y personas capacitadas para una emergencia.</string>
+    <string name="una_de_las_ltimas_recomendaciones_es_tener_a_la_mano_los_n_meros_de_contacto_de_las_entidades_que_nos_pueden_ayudar_en_cada_situaci_n_este_es_el_principal_objetivo_de_nuestra_aplicaci_n_proporcionar_los_n_meros_de_diferentes_servicios_de_emergencia_para_ayudarte_en_esas_situaciones_y_disminuir_los_da_os">Una de las ultimas recomendaciones es tener a la mano los numeros de contacto de las entidades que nos pueden ayudar en cada situación. Este es el principal objetivo de nuestra aplicación, proporcionar los números de difrerentes servicios de emergencia, para ayudarte en esas situaciones, y disminuir los daños.</string>
+    <string name="informaci_n_relevante">Información relevante</string>
+    <string name="es_importante_saber_c_mo_actuar_en_situaciones_de_emergencia_por_esto_es_buena_idea_conocer_qu_podemos_hacer_nosotros_como_involucrados_en_esas_situaciones_aqu_te_explicaremos_algunos_conceptos_que_te_ayudar_n">Es importante saber como actuar en situaciones de emergencia, por esto, es buena idea conocer que podemos hacer nosotros como involucrados en esas situaciones.  Aquí te explicaremos algunos conceptos que te ayudaran.</string>
+    <string name="en_nuestras_casas_podemos_revisar_los_cables_y_dispositivos_electricos_apagar_estufas_cerrar_el_gas_durante_la_noche_ayuda_a_prevenir_incendios">En nuestras casas  podemos revisar los cables y dispositivos electricos, apagar estufas, cerrar el gas durante la noche, ayuda a prevenir incendios.</string>
+
+
 </resources>
