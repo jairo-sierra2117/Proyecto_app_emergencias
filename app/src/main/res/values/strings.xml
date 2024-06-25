@@ -10,7 +10,11 @@
     <string name="btn_policia">POLICIA</string>
     <string name="btn_cruzroja">CRUZ ROJA</string>
     <string name="btn_bomberos">BOMBEROS</string>
-    <string name="btn_transito">TRANSITO</string>
+    <string name="btn_invias">SEGURIDAD VIAL</string>
+    <string name="btn_anticorrupcion">LINEA ANTICORRUPCIÓN</string>
+    <string name="btn_ayudamujeres">ORIENTACIÓN A MUJERES</string>
+    <string name="btn_defensacivil">DEFENSA  CIVIL</string>
+    <string name="btn_antisecuestro">ANTISECUESTRO Y ANTIEXTORSIÓN</string>
     <string name="txt_TitleDirectory">SELECCIONE UNA ACCIÓN</string>
 
     <!-- Preference Titles -->

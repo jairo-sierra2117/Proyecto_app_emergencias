@@ -221,7 +221,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="350 218 3555"
+                            android:text="3158322697"
                             android:textSize="15sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
@@ -248,12 +248,12 @@
                         <ImageView
                             android:layout_width="120dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/transito_9587021" />
+                            android:src="@drawable/invias" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/btn_transito"
+                            android:text="@string/btn_invias"
                             android:textColor="@color/black"
                             android:textSize="18sp"
                             android:textStyle="bold"
@@ -261,7 +261,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="911"
+                            android:text="#767"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
@@ -288,20 +288,20 @@
                         <ImageView
                             android:layout_width="120dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/grua_1731027" />
+                            android:src="@drawable/juez" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/btn_cruzroja"
-                            android:textSize="18sp"
+                            android:text="@string/btn_anticorrupcion"
+                            android:textSize="13sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="911"
+                            android:text="166"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
@@ -328,19 +328,60 @@
                         <ImageView
                             android:layout_width="120dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/medical_7771027" />
+                            android:src="@drawable/lineaayudamujer" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/btn_cruzroja"
-                            android:textSize="18sp"
+                            android:text="@string/btn_ayudamujeres"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="911"
+                            android:text="155"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="174dp"
+                        android:gravity="center"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/antisecuestro" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/btn_antisecuestro"
+                            android:textSize="10sp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textAlignment="center" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="165"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
@@ -367,58 +408,20 @@
                         <ImageView
                             android:layout_width="120dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/medical_7771027" />
+                            android:src="@drawable/defensa_civil_col" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/btn_cruzroja"
-                            android:textSize="18sp"
+                            android:text="@string/btn_defensacivil"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="911"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textAlignment="center" />
-                    </LinearLayout>
-
-
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="8dp">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="174dp"
-                        android:gravity="center"
-                        android:layout_gravity="center_vertical|center_horizontal"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="120dp"
-                            android:layout_height="120dp"
-                            android:src="@drawable/medical_7771027" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/btn_cruzroja"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            android:textAlignment="center" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="911"
+                            android:text="144"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
