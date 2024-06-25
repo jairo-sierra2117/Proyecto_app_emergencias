@@ -34,7 +34,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="180dp"
         android:padding="16dp">
 
         <LinearLayout
@@ -47,33 +47,36 @@
                 android:id="@+id/info_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
                 android:text="@string/informaci_n_relevante"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp" />
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/info_intro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/es_importante_saber_c_mo_actuar_en_situaciones_de_emergencia_por_esto_es_buena_idea_conocer_qu_podemos_hacer_nosotros_como_involucrados_en_esas_situaciones_aqu_te_explicaremos_algunos_conceptos_que_te_ayudar_n"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:text="@string/es_importante_saber_c_mo_actuar_en_situaciones_de_emergencia_por_esto_es_buena_idea_conocer_qu_podemos_hacer_nosotros_como_involucrados_en_esas_situaciones_aqu_te_explicaremos_algunos_conceptos_que_te_ayudar_n" />
 
             <TextView
                 android:id="@+id/what_is_emergency"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="@string/qu_es_una_emergencia"
+                android:textColor="@color/black"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/emergency_definition"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/una_emergencia_es_una_situaci_n_inesperada_que_no_se_tiene_contemplada_y_que_requiere_una_respuesta_inmediata_para_resolverla_algunos_ejemplos_son"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:text="@string/una_emergencia_es_una_situaci_n_inesperada_que_no_se_tiene_contemplada_y_que_requiere_una_respuesta_inmediata_para_resolverla_algunos_ejemplos_son" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -89,26 +92,26 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/accidentes_hospitalizaciones"
-                        android:layout_marginBottom="8dp" />
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/accidentes_hospitalizaciones" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/fallecimientos"
-                        android:layout_marginBottom="8dp" />
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/fallecimientos" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/detenciones_arrestos"
-                        android:layout_marginBottom="8dp" />
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/detenciones_arrestos" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/hurtos"
-                        android:layout_marginBottom="8dp" />
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/hurtos" />
                 </LinearLayout>
 
                 <ImageView
@@ -125,24 +128,25 @@
                 android:id="@+id/prevent_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/c_mo_prevenir_una_emergencia"
-                android:textSize="18sp"
-                android:textStyle="bold"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="8dp" />
+                android:layout_marginBottom="8dp"
+                android:text="@string/c_mo_prevenir_una_emergencia"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/prevent_intro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/aunque_no_sabemos_cu_ndo_nos_va_a_suceder_una_emergencia_podemos_estar_preparados_para_prevenir_y_minimizar_las_consecuencias_que_esta_pueda_causarnos_aqu_hay_algunas_situaciones_y_c_mo_podemos_prevenirlas"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:text="@string/aunque_no_sabemos_cu_ndo_nos_va_a_suceder_una_emergencia_podemos_estar_preparados_para_prevenir_y_minimizar_las_consecuencias_que_esta_pueda_causarnos_aqu_hay_algunas_situaciones_y_c_mo_podemos_prevenirlas" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="16dp">
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="0dp"
@@ -157,25 +161,25 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="En nuestras casas  podemos revisar los cables y dispositivos electricos, apagar estufas, cerrar el gas durante la noche, ayuda a prevenir incendios."
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp"
+                    android:text="En nuestras casas  podemos revisar los cables y dispositivos electricos, apagar estufas, cerrar el gas durante la noche, ayuda a prevenir incendios."
                     tools:ignore="HardcodedText" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="16dp">
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/tambi_n_tener_un_botiqu_n_de_primeros_auxilios_con_cosas_como_gasas_y_vendas_limpias_antis_pticos_o_alcohol_para_prevenir_infecciones_medicamentos_para_el_dolor_entre_otros"
                     android:paddingStart="16dp"
-                    android:paddingEnd="16dp" />
+                    android:paddingEnd="16dp"
+                    android:text="@string/tambi_n_tener_un_botiqu_n_de_primeros_auxilios_con_cosas_como_gasas_y_vendas_limpias_antis_pticos_o_alcohol_para_prevenir_infecciones_medicamentos_para_el_dolor_entre_otros" />
 
                 <ImageView
                     android:layout_width="0dp"
@@ -189,14 +193,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/en_nuestro_trabajo_o_centro_de_estudio_nos_puede_ayudar_conocer_las_rutas_de_evacuaci_n_puntos_de_encuentro_y_personas_capacitadas_para_una_emergencia"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:text="@string/en_nuestro_trabajo_o_centro_de_estudio_nos_puede_ayudar_conocer_las_rutas_de_evacuaci_n_puntos_de_encuentro_y_personas_capacitadas_para_una_emergencia" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="16dp">
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="0dp"
@@ -219,12 +223,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/una_de_las_ltimas_recomendaciones_es_tener_a_la_mano_los_n_meros_de_contacto_de_las_entidades_que_nos_pueden_ayudar_en_cada_situaci_n_este_es_el_principal_objetivo_de_nuestra_aplicaci_n_proporcionar_los_n_meros_de_diferentes_servicios_de_emergencia_para_ayudarte_en_esas_situaciones_y_disminuir_los_da_os"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:text="@string/una_de_las_ltimas_recomendaciones_es_tener_a_la_mano_los_n_meros_de_contacto_de_las_entidades_que_nos_pueden_ayudar_en_cada_situaci_n_este_es_el_principal_objetivo_de_nuestra_aplicaci_n_proporcionar_los_n_meros_de_diferentes_servicios_de_emergencia_para_ayudarte_en_esas_situaciones_y_disminuir_los_da_os" />
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="97dp"
+                android:layout_height="56dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="16dp"
                 android:contentDescription="@string/contact_numbers_image_desc"

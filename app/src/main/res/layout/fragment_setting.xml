@@ -21,6 +21,7 @@
                 android:layout_height="wrap_content"
                 android:text="Información de la Aplicación"
                 android:textSize="20sp"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
 
@@ -33,19 +34,21 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Desarrollado por: Equipo de Desarrollo"
+                android:text="Desarrollado por:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:layout_marginBottom="16dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-Desarrollador Jairo Sierra."
+                    android:text="- Jairo Enrique Sierra Bernal, estudiante de Ing. De Sistemas."
                     android:layout_marginBottom="8dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="- Desarrollador Freddy ."
+                    android:text="- Fredy Gustavo Peñaranda Duran, estudiante de Ing. De Sistemas."
                     android:layout_marginBottom="8dp" />
 
 
@@ -55,12 +58,14 @@
                 android:layout_height="wrap_content"
                 android:text="Créditos de las Imágenes"
                 android:textSize="20sp"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Designed by Vecteezy Vecteezy.com"
+                android:text="Designed by Vecteezy"
+                android:textColor="@color/black"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
@@ -68,7 +73,22 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Las imágenes utilizadas en esta aplicación son propiedad de sus respectivos autores."
+                android:text="Imagenes diseñadas por Freepik, extraidas con licencia gratuita de http://Freepik.com"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designed by Freekip"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imagenes diseñadas por Freepik, extraidas con licencia gratuita de http://Freepik.com"
                 android:layout_marginBottom="16dp" />
 
         </LinearLayout>
