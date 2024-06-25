@@ -9,7 +9,7 @@
     <LinearLayout
         android:id="@+id/title_container"
         android:layout_width="match_parent"
-        android:layout_height="139dp"
+        android:layout_height="170dp"
         android:layout_gravity="top|center_horizontal"
         android:background="#FF0000"
         android:gravity="center"
@@ -25,14 +25,16 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:text="@string/conectando_con_la_ayuda_app_directorio_de_emergencias"
-            android:textSize="24sp" />
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
 
     </LinearLayout>
     <!-- Aquí comienza el contenido que quieres agregar -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/light_red"
+        android:background="#FFC344"
         android:clickable="false"
         app:layout_constraintTop_toBottomOf="@id/title_container"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +49,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/txt_TitleDirectory"
             android:textSize="25dp"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:singleLine="true"
             android:ellipsize="end" />
@@ -89,13 +92,14 @@
                             android:layout_height="wrap_content"
                             android:text="@string/btn_policia"
                             android:textSize="18sp"
+                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
                             android:id="@+id/txt_numero_policia"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="911"
+                            android:text="123"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
@@ -129,6 +133,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/btn_bomberos"
                             android:textSize="18sp"
+                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
@@ -169,13 +174,14 @@
                             android:layout_height="wrap_content"
                             android:text="@string/btn_cruzroja"
                             android:textSize="18sp"
+                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
                             android:id="@+id/txt_numero_cruzroja"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="911"
+                            android:text="132"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
@@ -209,13 +215,14 @@
                             android:layout_height="wrap_content"
                             android:text="@string/btn_ambulancia"
                             android:textSize="18sp"
+                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="911"
-                            android:textSize="18sp"
+                            android:text="350 218 3555"
+                            android:textSize="15sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                     </LinearLayout>
@@ -247,6 +254,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/btn_transito"
+                            android:textColor="@color/black"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
@@ -287,6 +295,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/btn_cruzroja"
                             android:textSize="18sp"
+                            android:textColor="@color/black"
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView

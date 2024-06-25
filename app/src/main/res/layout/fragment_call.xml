@@ -9,7 +9,7 @@
     <LinearLayout
         android:id="@+id/title_container"
         android:layout_width="416dp"
-        android:layout_height="139dp"
+        android:layout_height="170dp"
         android:layout_gravity="top|center_horizontal"
         android:background="#FF0000"
         android:gravity="center"
@@ -25,19 +25,25 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:text="@string/conectando_con_la_ayuda_app_directorio_de_emergencias"
-            android:textSize="24sp" />
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            />
 
     </LinearLayout>
+
     <ImageView
         android:id="@+id/emergency_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/emergency_button_desc"
         android:src="@drawable/btn_red"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="@string/emergency_button_desc" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
