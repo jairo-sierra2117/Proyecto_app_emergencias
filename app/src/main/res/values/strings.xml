@@ -4,7 +4,7 @@
     <string name="btn_call">NAVBAR</string>
     <string name="btn_Univ">NAVBAR</string>
     <string name="btn_setting">NAVBAR</string>
-    <string name="conectando_con_la_ayuda_app_directorio_de_emergencias">Conectando con la ayuda:App directorio de Emergencias</string>
+    <string name="conectando_con_la_ayuda_app_directorio_de_emergencias">Conectando con la ayuda:App de Emergencias</string>
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="btn_ambulancia">AMBULANCIA</string>
     <string name="btn_policia">POLICIA</string>
