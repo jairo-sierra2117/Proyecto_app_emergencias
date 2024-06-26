@@ -39,6 +39,12 @@ class InicioFragment : Fragment() {
         setupCardLongPress(view.findViewById(R.id.card_policia), view.findViewById(R.id.txt_numero_policia))
         setupCardLongPress(view.findViewById(R.id.card_bombero), view.findViewById(R.id.txt_numero_bombero))
         setupCardLongPress(view.findViewById(R.id.card_cruzroja), view.findViewById(R.id.txt_numero_cruzroja))
+        setupCardLongPress(view.findViewById(R.id.card_ambulacia), view.findViewById(R.id.Ambulacia_txt))
+        setupCardLongPress(view.findViewById(R.id.card_seguridad_vial), view.findViewById(R.id.seguridadVial_txt))
+        setupCardLongPress(view.findViewById(R.id.card_AntiCorrupcion), view.findViewById(R.id.Anticorrupcion_txt))
+        setupCardLongPress(view.findViewById(R.id.card_orientacion_women), view.findViewById(R.id.orientacionWomen_txt))
+        setupCardLongPress(view.findViewById(R.id.card_antiSecuestro), view.findViewById(R.id.antiSecuestro_txt))
+        setupCardLongPress(view.findViewById(R.id.card_DefensaCivil), view.findViewById(R.id.defensaCivil_txt))
 
         return view
     }

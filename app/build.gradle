@@ -7,11 +7,11 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.cursokotlin.appemergencias"
+        applicationId "com.appemergencias"
         minSdk 22
         targetSdk 32
         versionCode 1
-        versionName "1.0"
+        versionName '0.5'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

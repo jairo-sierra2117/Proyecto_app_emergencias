@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/title_container"
-        android:layout_width="match_parent"
+        android:layout_width="416dp"
         android:layout_height="170dp"
         android:layout_gravity="top|center_horizontal"
         android:background="#FF0000"
@@ -26,8 +26,9 @@
             android:fontFamily="sans-serif"
             android:text="@string/conectando_con_la_ayuda_app_directorio_de_emergencias"
             android:textSize="25sp"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            />
 
     </LinearLayout>
     <!-- Aquí comienza el contenido que quieres agregar -->
@@ -48,7 +49,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:text="@string/txt_TitleDirectory"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:singleLine="true"
@@ -85,7 +86,8 @@
                         <ImageView
                             android:layout_width="120dp"
                             android:layout_height="120dp"
-                            android:src="@drawable/police_12308506" />
+                            android:src="@drawable/police_12308506"
+                            android:contentDescription="TODO" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -99,7 +101,7 @@
                             android:id="@+id/txt_numero_policia"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="123"
+                            android:text="@string/_123"
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center" />
@@ -190,6 +192,7 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card_ambulacia"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -219,6 +222,7 @@
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
+                            android:id="@+id/Ambulacia_txt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="3158322697"
@@ -230,6 +234,7 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card_seguridad_vial"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -259,6 +264,7 @@
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
+                            android:id="@+id/seguridadVial_txt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="#767"
@@ -270,6 +276,7 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card_AntiCorrupcion"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -299,6 +306,7 @@
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
+                            android:id="@+id/Anticorrupcion_txt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="166"
@@ -310,6 +318,7 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card_orientacion_women"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -339,6 +348,7 @@
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
+                            android:id="@+id/orientacionWomen_txt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="155"
@@ -350,6 +360,7 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card_antiSecuestro"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -379,6 +390,7 @@
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
+                            android:id="@+id/antiSecuestro_txt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="165"
@@ -390,6 +402,7 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card_DefensaCivil"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -419,6 +432,7 @@
                             android:textStyle="bold"
                             android:textAlignment="center" />
                         <TextView
+                            android:id="@+id/defensaCivil_txt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="144"
